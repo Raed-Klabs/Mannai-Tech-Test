@@ -29,6 +29,7 @@ public function customerWithHighestOrders()
                 ->orderByDesc('total_orders')
                 ->first();
 
+
     return $customer;
 }
 
